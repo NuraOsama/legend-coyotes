@@ -1,0 +1,544 @@
+@font-face {
+
+    font-family:Al Jazeera Arabic Bold;
+    src: url(../fonts/Al-Jazeera-Arabic-Bold.ttf);
+}
+@font-face {
+
+    font-family: Al Jazeera Arabic Regular;
+    src: url(../fonts/Al-Jazeera-Arabic-Regular.ttf);
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.42857143;
+    font-family:Al Jazeera Arabic Bold;
+    text-align: right;  
+    overflow:hidden !important;
+  
+}
+.body-content-wrapper {
+    overflow: hidden;
+    min-height:100vh;   
+ }
+ ul {
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul li{
+
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+a{
+
+    text-decoration: none !important;
+    outline: unset;
+    box-shadow: unset;
+}
+
+.image,
+.box-content,
+.effect-part{
+
+    position: relative;
+   
+}
+ .image .text{
+
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.legend-sec .pannel-part .image,
+.legend-sec .papers-part .image{
+    
+    position: relative;
+    text-align: right;
+    z-index: -2;
+}
+.legend-sec .part .image,
+.legend-sec  .download-part .image{
+
+    width:170px;
+
+}
+.legend-sec  .m-p .image{
+
+    display: block;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+.legend-sec .browse-part  .text,
+.legend-sec .effect-part  .text,
+.legend-sec  .login-part  .text,
+.legend-sec  .download-part .text{
+
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.legend-sec .browse-part  .text p,
+.legend-sec .part .text h4,
+.legend-sec  .login-part  .text h4,
+.legend-sec  .download-part  .text h4{
+
+   
+    line-height: 1;
+    text-align: center;
+    color: #000000;
+
+}
+.legend-sec .part  .text h4,
+.legend-sec  .login-part .text h4,
+.legend-sec  .download-part  .text h4{
+
+    font-size:15px;
+    display: block;
+    margin:0 auto .5rem;
+    padding:0 10px 0 0;
+    
+}
+.legend-sec  .login-part  .text h4,
+.legend-sec  .download-part  .text h4{
+
+    width: 60%;
+}
+.legend-sec .m-sm .text h3,
+.legend-sec .send-part .text h3{
+   
+    opacity: 0.9;
+}
+/*--preloader--*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 999999;
+    opacity:1
+ }
+  
+  #status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/animated-book-image-0012.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    margin: -100px 0 0 -100px;
+  }
+
+/*--Legend--*/
+
+.legend-sec{
+
+    position: relative;
+    z-index: 1;
+    background: url(../images/main-background.png);
+    background-size:100% 100%;
+    width:100%;
+    height:100%;
+    padding-bottom: 15px;
+
+}
+.legend-sec .legend-overlay{
+
+    position: absolute;
+    background: url(../images/frame.png);
+    background-size:100% 100%;
+    width:100%;
+    height:100%;
+    z-index: -1;
+
+}
+.legend-sec .col-lg-8 .content{
+
+    padding-top:60px;
+
+}
+
+.legend-sec .col-lg-2:last-of-type .content{
+
+    padding-top:50px;
+
+}
+.legend-sec .legend-content{
+
+    padding: 10px 20px 0;
+}
+
+
+.legend-sec .legend-content:first-of-type .col-lg-2:first-of-type{
+
+    padding-left: 0;
+}
+.legend-sec .legend-content:last-of-type  .col-lg-2:last-of-type{
+
+    padding-right: 0;
+}
+.legend-sec .pannel-part  img{
+
+  width:190px;
+}
+.legend-sec .pannel-part  img:last-child{
+
+    display: none;
+}
+.legend-sec .year-part  img{
+
+    width:185px;  
+}
+
+.legend-sec .browse-part .image{
+    width: 200px;
+}
+
+.legend-sec .browse-part  .text p{
+
+    position: relative;
+    z-index: 1;
+    width:45%;
+    display: block;
+    margin: 15px auto 0;
+    font-size: 10px;
+}
+.legend-sec .browse-part  .text p:before{
+   content: '';
+    position: absolute;
+    top: 0;
+    left: 2px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: -1;
+
+
+}
+.legend-sec .browse-x  .text p:before{
+
+    content: 'تصفح من اليمين الي اليسار';
+
+
+}
+.legend-sec .browse-y  .text p:before{
+
+    content: 'تصفح من أعلي إلى أسفل';
+
+}
+.legend-sec .effect-part .part:first-child .image{
+  
+    width:140px;
+}
+
+.legend-sec .effect-part  .part:first-child .text{
+    
+    transform: translate3d(-1px, 20px, 18px);
+}
+.legend-sec .effect-part .text p{
+
+    display: block;
+    margin: 0 auto;
+    line-height: 1.3;
+    font-size: 18px;
+    width:60%;
+    text-align: center;
+    color:#ff8d00;
+    transform: skew(-13deg, 0);
+
+}
+
+.legend-sec .part:last-child{
+
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+
+}
+.legend-sec .part  .text h4{
+
+    padding-top:22px;
+}
+
+.legend-sec .book-part {
+
+    position: relative;
+    z-index: -2;
+
+}
+.legend-sec .book-part:before {
+    content:'';
+    background: url(../images/papers.png);
+    position: absolute;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 94%;
+    height: 140px;
+    top: -5px;
+    left: 0;
+}
+.legend-sec .book-part .image{
+
+    width:100%;
+    height: 100%;
+
+}
+.legend-sec .book-part .text{
+
+    bottom: 0;
+}
+.legend-sec .book-part .text h3{
+
+     font-size: 32px;
+     background: linear-gradient(to left,#f1da42c9,#ffa900,#f1da42c9,#ffa900,#f1da42c9,#ffa900,#f1da42c9);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+     background-clip: text;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    -ms-text-fill-color:transparent;
+     -o-text-fill-color:transparent;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+.legend-sec  .login-part .image{
+
+    width:140px
+}
+
+.legend-sec  .store-part .image{
+
+    width:165px;
+ 
+ }
+ .legend-sec  .login-part .text h4{
+
+    padding-top: 17px;
+}
+.legend-sec  .download-part  .text h4{
+
+    padding-top:15px;
+    
+}
+.legend-sec .m-sm .text h3{
+
+    font-size: 14px;
+    color:#ffc600;
+    text-align: center;
+ }
+.legend-sec .box{
+
+   display: block;
+   margin:0 auto;
+   width: 162px;
+   height:85px;
+   background-color: #451014;
+   border-radius: 15px;
+
+}
+.legend-sec .evaluation-part .box{
+
+    height:65px;
+
+}
+.legend-sec  .contact-part .box{
+
+   background-color:#240f10;
+   padding:5px;
+   text-align: center;
+
+}
+
+.legend-sec   .box .image{
+
+    width:30px;
+    height:30px;
+    border-radius: 100%;
+    background-color: #d0d0d0;
+    display: block;
+    margin:0 auto;
+    text-align: center;
+   
+}
+.legend-sec   .box   h4{
+    
+    position: relative;
+    font-size: 10px;
+    color:#fff;
+    text-align: center;
+    margin-top: 0.4rem;
+    z-index: 1;
+    font-family: Al Jazeera Arabic Regular;
+
+}
+.legend-sec   .box  h4:before{
+
+   content:'';
+   position: absolute;
+   width: 100%;
+   height:100%;
+   color: #918f8f;
+   z-index: -1;
+   left:1px;
+    top:0;
+
+}
+.legend-sec   .box .box-content:nth-child(1) h4:before{
+
+     content:'القيوط';
+
+}
+.legend-sec   .box .box-content:nth-child(2) h4:before{
+
+    content:'اللورد نيلسون';
+
+}
+.legend-sec   .box .box-content:nth-child(3) h4:before{
+
+    content:'الكونتسية';
+
+}
+.legend-sec   .box .box-content:nth-child(4) h4:before{
+
+    content:'السير غاوس';
+
+}
+.legend-sec   .box  span{
+
+    position: absolute;
+    bottom: -4px;
+    left:0;
+    right:0;
+    display:block;
+    text-align: center;
+    margin:0 auto;
+    width:8px;
+    height:8px;
+    border-radius: 100%;
+    background-color: #fff;
+    border:2px solid #fff;
+
+}
+.legend-sec  .box-content:first-child span{
+
+    background-color: transparent;
+
+}
+.legend-sec .send-part .image{
+
+    width: 165px;
+
+}
+.legend-sec .send-part .text{
+    bottom: -7px;
+   /* padding-left: 20px;*/
+   right:unset !important;
+   
+}
+.legend-sec .send-part .text h3{
+
+   text-align: left;
+
+}
+.legend-sec .legend-content .col-lg-12 .content{
+    padding: 0 20px;
+}
+.legend-sec .box-text{
+  
+    width:100% !important;
+    height:100% !important;
+    padding:20px 25px;
+}
+.legend-sec .box p{
+
+    color:#e2dada;
+    font-size:15px;
+    line-height: 1.7;
+}
+.legend-sec .legend-content:last-child .image{
+
+     position: relative;
+     z-index: -2;
+     padding:0 20px;
+     display: block;
+    margin: 0 auto;
+}
+.legend-sec .book-image{
+
+    width: 250px;
+}
+.legend-sec  .payment-image{
+
+    width: 340px;
+    display: block;
+    margin: 0 auto 10px;
+
+}
+.legend-sec .legend-content:last-child .letter-image{
+
+    width: 235px;
+    margin:40px auto 0;
+
+}
+.legend-sec .copy-right-text{
+
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+
+}
+.legend-sec .copy-right-text p{
+
+    font-size:14px;
+    text-align: center;
+    color:#afafaf;
+    line-height: 1;
+}
+/*--//Legend--*/
+
+/*--scroll--*/
+a#scrail2000{
+
+    width:8px;
+}
+.nicescroll-cursors{
+
+    border:none !important;
+    border-radius: 3px !important;
+}
+/*--//scroll--*/
+
+
+
+
+

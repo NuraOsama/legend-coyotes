@@ -1,0 +1,1102 @@
+/*--media query--*/
+@media screen and  (max-width:320px){
+    .image,
+    img{
+
+        display: block;
+        margin: 0 auto !important;
+       text-align: center !important;
+   }
+
+   .legend-sec .pannel-part img,
+   .legend-sec .year-part img,
+   .legend-sec .browse-part .image,
+   .legend-sec .box,
+   .legend-sec .send-part .image,
+   .legend-sec .legend-content:last-child .image{
+       width:100%;
+   }
+   .legend-sec .effect-part .part:first-child .image,
+   .legend-sec .effect-part .part:first-child .image,
+   .legend-sec .part .image,
+   .legend-sec .download-part .image,
+   .legend-sec .store-part .image{
+
+      width:90%;
+   }
+   
+    .legend-sec .box,
+    .legend-sec .evaluation-part .box{
+
+        height:85px;
+    }
+    .legend-sec {
+       
+        background: url(../images/bk-pannel.png);
+     
+    }
+   .legend-sec .legend-overlay {
+       
+        background: url(../images/overlay-responsive.png);
+        background-size: cover;
+        background-size:100% 100%;
+    }
+   
+    .legend-sec  .content {
+        padding-top:30px !important;
+    }
+    .legend-sec .legend-content{
+        padding: 10px 0 0;
+    }
+    .legend-sec .legend-content:first-of-type .col-lg-2:first-of-type {
+        padding-left: 15px;
+    }
+   
+    .legend-sec .legend-content .col-lg-12 .content {
+        padding: 0;
+     }
+     .legend-sec .pannel-part  img:first-child{
+
+        display: none;
+    }
+     .legend-sec .pannel-part  img:last-child{
+
+        display: block;
+    }
+   
+    .legend-sec .browse-part .text p{
+       
+        font-size: 13px;
+        margin: 20px auto 0;
+
+    }    
+    .legend-sec .effect-part .part:first-child .text {
+        transform: translate3d(0px,60px, 18px);
+    }
+  
+    .legend-sec .effect-part .text p {
+        
+        font-size: 16px;
+        width: 100%;
+    }
+    .legend-sec .book-part .text {
+        bottom: -24px;
+    }
+    
+    .legend-sec .book-part .text h3 {
+        margin:25px 30px 0 0;
+       font-size: 25px;
+    }
+    .legend-sec .part .text h4 {
+        padding-top: 35px;
+    }
+    .legend-sec .part:last-child {
+       
+        bottom:-15px;
+    }
+
+    .legend-sec .login-part .image{
+
+        width:60%;
+    }
+    .legend-sec .login-part .text h4 {
+        padding-top: 20px;
+    }
+    .legend-sec .download-part .text h4 {
+    padding-top: 30px;
+    }
+    
+    .legend-sec .m-sm .text h3 {
+        font-size:17px;
+    }
+    .legend-sec .legend-content:last-child .image{
+
+       padding: 0;
+    }
+  
+    .legend-sec .contact-part .box .d-flex{
+
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    
+    }
+  
+    .legend-sec .box p {
+       
+        text-align: center;
+    }
+    .legend-sec .payment-image{
+        width:100%;
+    }
+    .legend-sec .copy-right-text {
+        
+        bottom:0;
+    }
+}
+@media screen and (max-width:375px) and (min-width:321px){
+
+    .image,
+    img{
+
+        display: block;
+        margin: 0 auto !important;
+       text-align: center !important;
+   }
+
+   .legend-sec .pannel-part img,
+   .legend-sec .year-part img,
+   .legend-sec .browse-part .image,
+   .legend-sec .box,
+   .legend-sec .send-part .image,
+   .legend-sec .legend-content:last-child .image{
+       width:80%;
+   }
+   .legend-sec .effect-part .part:first-child .image,
+   .legend-sec .effect-part .part:first-child .image,
+   .legend-sec .part .image,
+   .legend-sec .download-part .image,
+   .legend-sec .store-part .image{
+
+      width:60%;
+   }
+   
+    .legend-sec .box,
+    .legend-sec .evaluation-part .box{
+
+        height:85px;
+    }
+    .legend-sec {
+       
+        background: url(../images/bk-pannel.png);
+     
+    }
+   .legend-sec .legend-overlay {
+       
+        background: url(../images/overlay-responsive.png);
+        background-size: cover;
+        background-size:100% 100%;
+    }
+   
+    .legend-sec  .content {
+        padding-top:30px !important;
+    }
+    .legend-sec .legend-content{
+        padding: 10px 0 0;
+    }
+    .legend-sec .legend-content:first-of-type .col-lg-2:first-of-type {
+        padding-left: 15px;
+    }
+    .legend-sec .legend-content .col-lg-12 .content {
+        padding: 0;
+     }
+     .legend-sec .pannel-part  img:first-child{
+
+        display: none;
+    }
+     .legend-sec .pannel-part  img:last-child{
+
+        display: block;
+    }
+
+    .legend-sec .browse-part .text p{
+       
+        font-size: 13px;
+        margin: 20px auto 0;
+
+    }
+    
+    .legend-sec .effect-part .part:first-child .text {
+        transform: translate3d(0px,40px, 18px);
+    }
+  
+    .legend-sec .effect-part .text p {
+        
+        font-size: 16px;
+        width: 100%;
+    }
+    .legend-sec .book-part .text {
+        bottom: -24px;
+    }
+    
+    .legend-sec .book-part .text h3 {
+        margin:25px 30px 0 0;
+       font-size: 25px;
+    }
+    
+    .legend-sec .part:last-child {
+       
+        bottom:-15px;
+    }
+    .legend-sec .part .text h4 {
+        padding-top: 25px;
+    }
+    .legend-sec .login-part .image{
+
+        width:50%;
+    }
+    .legend-sec .login-part .text h4 {
+        padding-top: 20px;
+    }
+    .legend-sec .download-part .text h4 {
+        padding-top: 17px;
+    }
+    .legend-sec .m-sm .text h3 {
+        font-size:17px;
+    }
+    .legend-sec .legend-content:last-child .image{
+
+       padding: 0;
+    }  
+    .legend-sec .contact-part .box .d-flex{
+
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    
+    }
+  
+    .legend-sec .box p {
+       
+        text-align: center;
+    }
+    .legend-sec .payment-image{
+        width:100%;
+    }
+    .legend-sec .copy-right-text {
+        
+        bottom:0;
+    }
+}
+@media screen and (max-width:425px) and (min-width:376px){
+    .image,
+    img{
+        display: block;
+        margin: 0 auto !important;
+       text-align: center !important;
+   }
+   
+
+   .legend-sec .pannel-part img,
+   .legend-sec .year-part img,
+   .legend-sec .browse-part .image,
+   .legend-sec .box,
+   .legend-sec .send-part .image,
+   .legend-sec .legend-content:last-child .image{
+       width:70%;
+   }
+   .legend-sec .effect-part .part:first-child .image,
+   .legend-sec .effect-part .part:first-child .image,
+   .legend-sec .part .image,
+   .legend-sec .download-part .image,
+   .legend-sec .store-part .image{
+
+      width: 50%;
+   }
+   
+    .legend-sec .box,
+    .legend-sec .evaluation-part .box{
+
+        height:85px;
+    }
+    .legend-sec {
+       
+        background: url(../images/bk-pannel.png);
+     
+    }
+   .legend-sec .legend-overlay {
+       
+        background: url(../images/overlay-responsive.png);
+        background-size: cover;
+        background-size:100% 100%;
+    }
+   
+    .legend-sec  .content {
+        padding-top:30px !important;
+    }
+    .legend-sec .legend-content{
+        padding: 10px 0 0;
+    }
+   
+    .legend-sec .legend-content:first-of-type .col-lg-2:first-of-type {
+        padding-left: 15px;
+    }
+    .legend-sec .legend-content .col-lg-12 .content {
+        padding: 0;
+     }
+     .legend-sec .pannel-part  img:first-child{
+
+        display: none;
+    }
+     .legend-sec .pannel-part  img:last-child{
+
+        display: block;
+    }
+
+    .legend-sec .browse-part .text p{
+       
+        font-size: 13px;
+        margin:20px auto 0;
+
+    }
+    .legend-sec .effect-part .part:first-child .text {
+        transform: translate3d(0px,40px, 18px);
+    }
+    .legend-sec .part .text h4 {
+        padding-top: 25px;
+    }
+    .legend-sec .effect-part .text p {
+        
+        font-size: 16px;
+        width: 100%;
+    }
+    .legend-sec .book-part .text {
+        bottom: -24px;
+    }
+    .legend-sec .book-part .text h3 {
+        margin:25px 30px 0 0;
+       font-size: 27px;
+    }
+    
+    .legend-sec .part:last-child {
+       
+        bottom:-15px;
+    }
+
+    .legend-sec .login-part .image{
+
+        width:50%;
+    }
+    .legend-sec .login-part .text h4{
+
+        padding-top:25px;
+    }
+    .legend-sec .download-part .text h4 {
+        padding-top: 18px;
+    }
+    .legend-sec .m-sm .text h3 {
+        font-size:17px;
+    }
+    .legend-sec .legend-content:last-child .image{
+
+       padding: 0;
+    }
+  
+    .legend-sec .contact-part .box .d-flex{
+
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    
+    }
+  
+    .legend-sec .box p {
+       
+        text-align: center;
+    }
+    .legend-sec .payment-image{
+        width:100%;
+    }
+    .legend-sec .copy-right-text {
+        
+        bottom:0;
+    }
+}
+@media screen and (max-width:500px) and (min-width:426px){
+    .image,
+    img{
+        display: block;
+        margin: 0 auto !important;
+       text-align: center !important;
+   }
+   
+
+   .legend-sec .pannel-part img,
+   .legend-sec .year-part img,
+   .legend-sec .browse-part .image,
+   .legend-sec .box,
+   .legend-sec .send-part .image,
+   .legend-sec .legend-content:last-child .image{
+       width:70%;
+   }
+   .legend-sec .effect-part .part:first-child .image,
+   .legend-sec .effect-part .part:first-child .image,
+   .legend-sec .part .image,
+   .legend-sec .download-part .image,
+   .legend-sec .store-part .image{
+
+      width: 50%;
+   }
+   
+    .legend-sec .box,
+    .legend-sec .evaluation-part .box{
+
+        height:85px;
+    }
+    .legend-sec {
+       
+        background: url(../images/bk-pannel.png);
+     
+    }
+   .legend-sec .legend-overlay {
+       
+        background: url(../images/overlay-responsive.png);
+        background-size: cover;
+        background-size:100% 100%;
+    }
+   
+    .legend-sec  .content {
+        padding-top:30px !important;
+    }
+    .legend-sec .legend-content{
+        padding: 10px 0 0;
+    }
+   
+    .legend-sec .legend-content:first-of-type .col-lg-2:first-of-type {
+        padding-left: 15px;
+    }
+    .legend-sec .legend-content .col-lg-12 .content {
+        padding: 0;
+     }
+     .legend-sec .pannel-part  img:first-child{
+
+        display: none;
+    }
+     .legend-sec .pannel-part  img:last-child{
+
+        display: block;
+    }
+    .legend-sec .browse-part .text p{
+       
+        font-size: 13px;
+        margin:30px auto 0;    
+    }
+ 
+    .legend-sec .effect-part .part:first-child .text {
+        transform: translate3d(0px,40px, 18px);
+    }
+  
+    .legend-sec .effect-part .text p {
+        
+        font-size: 16px;
+        width: 100%;
+    }
+    .legend-sec .part .text h4 {
+        padding-top: 30px;
+    }
+    
+    .legend-sec .book-part .text {
+        bottom: -24px;
+    }
+    .legend-sec .book-part .text h3 {
+        margin:25px 30px 0 0;
+       font-size: 27px;
+    }
+    
+    .legend-sec .part:last-child {
+       
+        bottom:-15px;
+    }
+
+    .legend-sec .login-part .image{
+
+        width:50%;
+    }
+    
+    .legend-sec .login-part .text h4{
+
+        padding:30px 10px 0 0;
+    }
+    .legend-sec .download-part .text h4 {
+      
+        padding: 25px 10px 0 0;
+    }
+    
+    .legend-sec .m-sm .text h3 {
+        font-size:17px;
+    }
+    .legend-sec .legend-content:last-child .image{
+
+       padding: 0;
+    }
+  
+    .legend-sec .contact-part .box .d-flex{
+
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    
+    }
+  
+    .legend-sec .box p {
+       
+        text-align: center;
+    }
+    .legend-sec .payment-image{
+        width:100%;
+    }
+    .legend-sec .copy-right-text {
+        
+        bottom:0;
+    }
+}
+@media screen and (max-width:575px) and (min-width:501px){
+    .image,
+    img{
+        display: block;
+        margin: 0 auto !important;
+       text-align: center !important;
+   }
+   
+
+   .legend-sec .pannel-part img,
+   .legend-sec .year-part img,
+   .legend-sec .browse-part .image,
+   .legend-sec .effect-part .part:first-child .image,
+   .legend-sec .part .image,
+   .legend-sec .download-part .image,
+   .legend-sec .store-part .image,
+   .legend-sec .box,
+   .legend-sec .send-part .image,
+   .legend-sec .legend-content:last-child .image,
+   .legend-sec .payment-image{
+       width:60%;
+   }
+   
+    .legend-sec .part .text h4,
+    .legend-sec .login-part .text h4,
+    .legend-sec .download-part .text h4 {
+        font-size:18px;
+    }
+  
+    .legend-sec .browse-part .text p,
+    .legend-sec .download-part .text h4 {
+        margin:30px auto 0;
+    }
+    .legend-sec .box,
+    .legend-sec .evaluation-part .box{
+
+        height: 120px;
+    }
+    .legend-sec {
+       
+        background: url(../images/bk-pannel.png);
+     
+    }
+   .legend-sec .legend-overlay {
+       
+        background: url(../images/overlay-responsive.png);
+        background-size: cover;
+        background-size:100% 100%;
+    }
+   
+    .legend-sec  .content {
+        padding-top:30px !important;
+    }
+    .legend-sec .legend-content{
+
+        padding: 10px 0 0;
+    }
+    .legend-sec .legend-content:first-of-type .col-lg-2:first-of-type {
+        padding-left: 15px;
+    }
+    .legend-sec .legend-content .col-lg-12 .content {
+        padding: 0;
+     }
+     .legend-sec .pannel-part  img:first-child{
+
+        display: none;
+    }
+     .legend-sec .pannel-part  img:last-child{
+
+        display: block;
+    }
+    .legend-sec .browse-part .text p{
+       
+     
+        font-size: 14px;
+    }
+    
+    .legend-sec .effect-part .part:first-child .text {
+        transform: translate3d(0px, 80px, 18px);
+    }
+  
+    .legend-sec .effect-part .text p {
+        
+        font-size: 19px;
+        width: 100%;
+    }
+    .legend-sec .book-part .text h3 {
+
+        margin: 25px 0 0 0; 
+       font-size: 30px;
+        
+    }
+    .legend-sec .part:last-child {
+       
+        bottom: -45px;
+    }
+    
+    .legend-sec .part .text h4 {
+        padding-top:45px;
+    }
+   
+    .legend-sec .login-part .image{
+
+        width:50%;
+    }
+    .legend-sec .login-part .text h4{
+        margin:20px auto 0;
+    }
+  
+    .legend-sec .m-sm .text h3 {
+        font-size: 22px;
+    }
+    .legend-sec .legend-content:last-child .image{
+
+       padding: 0;
+    }
+    
+    .legend-sec .contact-part .box .d-flex{
+
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    
+    }
+   /* .legend-sec .box .image {
+
+        width: 100%;
+        height: unset !important;
+    }*/
+    .legend-sec .payment-image{
+        width:100%;
+    }
+    .legend-sec .box p {
+       
+        text-align: center;
+    }
+    .legend-sec .copy-right-text {
+        
+        bottom:0;
+    }
+}
+@media screen and (max-width:768px) and (min-width:576px){
+    .image,
+    img{
+        display: block;
+        margin: 0 auto !important;
+       text-align: center !important;
+   }
+   
+
+   .legend-sec .pannel-part img,
+   .legend-sec .year-part img,
+   .legend-sec .browse-part .image,
+   .legend-sec .effect-part .part:first-child .image,
+   .legend-sec .part .image,
+   .legend-sec .download-part .image,
+   .legend-sec .store-part .image,
+   .legend-sec .box,
+   .legend-sec .send-part .image,
+   .legend-sec .legend-content:last-child .image,
+   .legend-sec .payment-image{
+       width:45%;
+   }
+   
+    .legend-sec .part .text h4,
+    .legend-sec .login-part .text h4,
+    .legend-sec .download-part .text h4 {
+        font-size:18px;
+    }
+    .legend-sec .browse-part .text p,
+    .legend-sec .login-part .text h4, 
+    .legend-sec .download-part .text h4 {
+        width: 100%;
+    }
+    .legend-sec .browse-part .text p,
+    .legend-sec .download-part .text h4 {
+        margin:32px auto 0;
+    }
+    .legend-sec .box,
+    .legend-sec .evaluation-part .box{
+
+        height: 120px;
+    }
+    .legend-sec {
+       
+        background: url(../images/bk-pannel.png);
+     
+    }
+   .legend-sec .legend-overlay {
+       
+        background: url(../images/overlay-responsive.png);
+        background-size: cover;
+        background-size:100% 100%;
+    }
+   
+    .legend-sec  .content {
+        padding-top:30px !important;
+    }
+    .legend-sec .legend-content{
+        padding: 10px 0 0;
+    }
+    .legend-sec .legend-content:first-of-type .col-lg-2:first-of-type {
+        padding-left: 15px;
+    }
+    .legend-sec .legend-content .col-lg-12 .content {
+        padding: 0;
+     }
+     .legend-sec .pannel-part  img:first-child{
+
+        display: none;
+    }
+     .legend-sec .pannel-part  img:last-child{
+
+        display: block;
+    }
+    .legend-sec .browse-part .text p{
+       
+     
+        font-size: 14px;
+    }
+    
+    .legend-sec .effect-part .part:first-child .text {
+        transform: translate3d(0px, 80px, 18px);
+    }
+  
+    .legend-sec .effect-part .text p {
+        
+        font-size:19px;
+        width: 100%;
+    }
+    .legend-sec .book-part .text h3 {
+
+        margin-bottom: 0;
+        
+    }
+    .legend-sec .part:last-child {
+       
+        bottom: -45px;
+    }
+    
+    .legend-sec .part .text h4 {
+        padding-top:47px;
+    }
+   
+    .legend-sec .login-part .image{
+
+        width:40%;
+    }
+    .legend-sec .login-part .text h4{
+        margin: 22px auto 0;
+    }
+  
+    .legend-sec .m-sm .text h3 {
+        font-size: 22px;
+    }
+    .legend-sec .legend-content:last-child .image{
+
+       padding: 0;
+    }
+    .legend-sec .contact-part .box .d-flex{
+
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    
+    }
+    .legend-sec .box .image {
+
+        width: 100%;
+        height: unset !important;
+    }
+    .legend-sec .legend-content .col-lg-12 .content {
+        padding: 0;
+     }
+    .legend-sec .box p {
+       
+        text-align: center;
+    }
+    .legend-sec .payment-image{
+
+        width:80%;
+    }
+    .legend-sec .copy-right-text {
+        
+        bottom:0;
+    }
+    
+}
+@media screen and (max-width:991px) and (min-width:769px){
+
+    .image,
+    img{
+        display: block;
+        margin: 0 auto !important;
+       text-align: center !important;
+   }
+   
+
+   .legend-sec .pannel-part img,
+   .legend-sec .year-part img,
+   .legend-sec .browse-part .image,
+   .legend-sec .effect-part .part:first-child .image,
+   .legend-sec .part .image,
+   .legend-sec .download-part .image,
+   .legend-sec .download-part .image,
+   .legend-sec .store-part .image,
+   .legend-sec .download-part .image,
+   .legend-sec .download-part .image,
+   .legend-sec .store-part .image,
+   .legend-sec .box,
+   .legend-sec .send-part .image,
+   .legend-sec .payment-image,
+   .legend-sec .legend-content:last-child .image{
+       width: 40%;
+   }
+   
+   
+    .legend-sec .part .text h4,
+    .legend-sec .login-part .text h4,
+    .legend-sec .download-part .text h4 {
+        font-size: 18px;
+    }
+    .legend-sec .browse-part .text p,
+    .legend-sec .login-part .text h4, 
+    .legend-sec .download-part .text h4 {
+        width: 100%;
+    }
+    .legend-sec .browse-part .text p,
+    .legend-sec .download-part .text h4 {
+        margin:40px auto 0;
+    }
+    .legend-sec .box,
+    .legend-sec .evaluation-part .box{
+
+        height: 150px;
+    }
+    .legend-sec {
+       
+        background: url(../images/bk-pannel.png);
+     
+    }
+   .legend-sec .legend-overlay {
+       
+        background: url(../images/overlay-responsive.png);
+        background-size: cover;
+        background-size:100% 100%;
+    }
+    .legend-sec  .content {
+        padding-top:30px !important;
+    }
+    .legend-sec .legend-content{
+        padding: 10px 0 0;
+    }
+   
+    .legend-sec .legend-content:first-of-type .col-lg-2:first-of-type {
+        padding-left: 15px;
+    }
+    .legend-sec .legend-content .col-lg-12 .content {
+        padding: 0;
+     }
+     .legend-sec .pannel-part  img:first-child{
+
+        display: none;
+    }
+     .legend-sec .pannel-part  img:last-child{
+
+        display: block;
+    }
+   
+    .legend-sec .browse-part .text p{
+       
+     
+        font-size: 14px;
+    }
+    
+    .legend-sec .effect-part .part:first-child .text {
+        transform: translate3d(0px, 110px, 18px);
+    }
+    .legend-sec .effect-part .text p {
+        
+        font-size:19px;
+        width: 100%;
+    }
+    .legend-sec .part:last-child {
+       
+        bottom: -40px;
+    }
+    
+    .legend-sec .part .text h4 {
+        padding-top:55px;
+    }
+    .legend-sec .login-part .image{
+
+        width:30%;
+    }
+    .legend-sec .login-part .text h4{
+        margin:22px auto 0;
+    }
+  
+    .legend-sec .m-sm .text h3 {
+        font-size: 22px;
+    }
+    .legend-sec .legend-content:last-child .image{
+
+       padding: 0;
+    }
+    .legend-sec .contact-part .box .d-flex{
+
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    
+    }
+    .legend-sec .box .image {
+
+        width: 100%;
+        height: unset !important;
+    }
+   
+    .legend-sec .box p {
+       
+        text-align: center;
+    }
+    .legend-sec .payment-image{
+
+        width:80%;
+    }
+    .legend-sec .copy-right-text {
+        
+        bottom: 0;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:992px){
+
+    .legend-sec .legend-content:last-child {
+        padding-bottom:20px;
+    }
+    .legend-sec .pannel-part img,
+    .legend-sec .year-part img,
+    .legend-sec .browse-part .image,
+    .legend-sec .effect-part .image,
+    .legend-sec .narrator-part .image,
+    .legend-sec .login-part .image,
+    .legend-sec .download-part .image,
+    .legend-sec .store-part .image,
+    .legend-sec .box,
+    .legend-sec .send-part .image,
+    .legend-sec .book-image,
+    .legend-sec .letter-image{
+
+        width:100% !important;
+    }
+    
+    .legend-sec .browse-part .text p {
+       
+        margin: 8px auto 0;
+    }
+    .legend-sec .col-lg-8 .content {
+        padding-top: 45px;
+    }
+    .legend-sec .book-part .text h3 {
+       
+        margin-bottom: 1rem;
+    }
+    .legend-sec .part:last-child {
+
+        position: absolute;
+        bottom: -10px;
+    }
+    .legend-sec .part .text h4 {
+
+        padding-top: 18px;
+    }
+    .legend-sec .login-part .text h4, 
+    .legend-sec .download-part .text h4 {
+        width: 70%;
+    }
+     .legend-sec .download-part .text h4 {
+        padding-top: 8px;
+    }
+    .legend-sec .box .image {
+        width: 25px;
+        height: 25px;
+    }
+    .legend-sec .box p {
+        font-size: 14px;
+    }
+    .legend-sec .legend-content:last-child .image{
+        padding: 0;
+    }
+    .legend-sec .copy-right-text {
+        bottom: 31px;
+    }
+    
+    
+}
+@media screen and (max-width:1245px) and (min-width:1025px){
+
+    .legend-sec .legend-content:last-child {
+        padding-bottom:20px;
+    }
+    .legend-sec .pannel-part img,
+    .legend-sec .year-part img,
+    .legend-sec .browse-part .image,
+    .legend-sec .effect-part .image,
+    .legend-sec .narrator-part .image,
+    .legend-sec .login-part .image,
+    .legend-sec .download-part .image,
+    .legend-sec .store-part .image,
+    .legend-sec .box,
+    .legend-sec .send-part .image,
+    .legend-sec .book-image,
+    .legend-sec .letter-image{
+
+        width:100% !important;
+    }
+    
+    .legend-sec .browse-part .text p {
+       
+        margin: 8px auto 0;
+    }
+    .legend-sec .col-lg-8 .content {
+        padding-top: 45px;
+    }
+    .legend-sec .book-part .text h3 {
+       
+        margin-bottom: 1rem;
+    }
+    .legend-sec .part:last-child {
+
+        position: absolute;
+        bottom: -10px;
+    }
+    .legend-sec .part .text h4 {
+
+        padding-top: 18px;
+    }
+    .legend-sec .login-part .text h4, 
+    .legend-sec .download-part .text h4 {
+        width: 70%;
+    }
+     .legend-sec .download-part .text h4 {
+        padding-top: 8px;
+    }
+    .legend-sec .box .image {
+        width: 25px;
+        height: 25px;
+    }
+    .legend-sec .box p {
+        font-size: 14px;
+    }
+    .legend-sec .legend-content:last-child .image{
+        padding: 0;
+    }
+    .legend-sec .copy-right-text {
+        bottom: 31px;
+    }
+        
+}
+/*--//media query--*/
